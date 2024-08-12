@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Independence Day Celebration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+    <header>
+        <h1>Happy Indian Independence Day!</h1>
+        <p>Celebrating Freedom and Unity</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>About Indian Independence Day</h2>
+            <p>Indian Independence Day is celebrated on August 15 each year. It marks the end of British rule in India in 1947 and the establishment of a free and independent Indian nation.</p>
+        </section>
+
+        <section class="slideshow">
+            <h2>Independence Day Slideshow</h2>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="https://images3.alphacoders.com/846/84665.jpg" alt="Indian Flag">
+                    <div class="caption">The Indian Flag</div>
+                </div>
+                <div class="slide fade">
+                    <img src="https://cdn.feedingtrends.com/article-images/1_2325365316.jpg" alt="Indian Leader">
+                    <div class="caption">Key Leaders of Independence</div>
+                </div>
+                <div class="slide fade">
+                    <img src="https://images.indianexpress.com/2018/08/india1.jpg" alt="Celebration">
+                    <div class="caption">Celebrations Across India</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </section>
+
+        <section class="historical-timeline">
+            <h2>Historical Timeline</h2>
+            <ul>
+                <li><strong>1857:</strong> First War of Indian Independence.</li>
+                <li><strong>1942:</strong> Quit India Movement.</li>
+                <li><strong>1947:</strong> India gains independence from British rule.</li>
+                <li><strong>1950:</strong> Adoption of the Indian Constitution.</li>
+            </ul>
+        </section>
+
+        <section class="famous-quotes">
+            <h2>Famous Quotes</h2>
+            <blockquote>
+                <p>"At the dawn of history, India started on her unending quest, and trackless centuries are filled with her striving and the grandeur of her successes and her failures."</p>
+                <footer>- Jawaharlal Nehru</footer>
+            </blockquote>
+            <blockquote>
+                <p>"The best way to find yourself is to lose yourself in the service of others."</p>
+                <footer>- Mahatma Gandhi</footer>
+            </blockquote>
+        </section>
+
+        <section class="interactive">
+            <h2>Interactive Quiz</h2>
+            <div class="quiz-container">
+                <p id="question">What year did India gain independence?</p>
+                <button onclick="checkAnswer('1947')">1947</button>
+                <button onclick="checkAnswer('1950')">1950</button>
+                <button onclick="checkAnswer('1965')">1965</button>
+                <button onclick="checkAnswer('1970')">1970</button>
+                <p id="quizResult"></p>
+            </div>
+        </section>
+
+        <section class="interactive">
+            <h2>Click to Celebrate!</h2>
+            <button id="celebrateButton">Click to Celebrate!</button>
+            <p id="celebrationMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Indian Independence Day Celebration</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
